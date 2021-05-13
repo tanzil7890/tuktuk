@@ -1,0 +1,16 @@
+.card {
+  margin-top: 2rem;
+  background: rgb(159,156,218);
+    background: linear-gradient(90deg, #47daf8 3%, #47daf8 52%, #47daf8 100%);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 100.0px );
+    -webkit-backdrop-filter: blur( 100.0px );
+    border-radius: 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  border: 1px solid $color-grey-2;
+  border-radius: 3px;
+
+  @include respond(phone) {
+    border: none;
+  }
+}
